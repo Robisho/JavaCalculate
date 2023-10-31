@@ -70,7 +70,9 @@ public class Main {
                     return "";
                 } else result = val1 / val2;
             }
-            default -> System.out.println("throws Exception");
+            default -> {
+                System.out.println("throws Exception");
+                return "";
         }
         return String.valueOf(result);
     }
