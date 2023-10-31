@@ -32,7 +32,8 @@ public class Main {
             System.out.println("throws Exception");
             return false;
         } else if (inputList.length > 4) {
-            System.out.println("throws Exception //т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
+            System.out.println("throws Exception //т.к. формат математической операции не " + 
+                        "удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
             return false;
         } else if (inputList.length < 3) {
             System.out.println("throws Exception //т.к. строка не является математической операцией");
